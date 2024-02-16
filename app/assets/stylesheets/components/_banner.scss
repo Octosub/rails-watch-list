@@ -1,7 +1,28 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 150px;
+  padding-top: 200px;
+  height: 60vh;
+}
+
+.banner-container {
+  margin: 0;
+}
+
+.create-list-btn {
+  background-color: rgba(98, 0, 123, 0.792);
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.create-list-btn:hover {
+  background-color: rgba(98, 0, 123, 0.792);
+  color: #FFE26F;
 }
 
 .banner h1 {
